@@ -9,4 +9,9 @@
 
 @implementation LYFoundation
 
+-(void)test{
+    NSLog(@"LYFoundation");
+}
+
+
 @end

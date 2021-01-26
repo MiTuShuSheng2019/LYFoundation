@@ -38,8 +38,8 @@
 
 /* Begin PBXFileReference section */
 		312CE14B86FDAA687671BA97 /* Pods_LYFoundation_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LYFoundation_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3970597D0AA7BB4E66B58226 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		55744210AD7517A724326630 /* LYFoundation.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LYFoundation.podspec; path = ../LYFoundation.podspec; sourceTree = "<group>"; };
+		3970597D0AA7BB4E66B58226 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		55744210AD7517A724326630 /* LYFoundation.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LYFoundation.podspec; path = ../LYFoundation.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		58C5FEE891C77DB44256FAD3 /* Pods_LYFoundation_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LYFoundation_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* LYFoundation_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LYFoundation_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -66,7 +66,7 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A32803C3FA8CD2AD3A3655DC /* Pods-LYFoundation_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYFoundation_Example.debug.xcconfig"; path = "Target Support Files/Pods-LYFoundation_Example/Pods-LYFoundation_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		BDF61A995A754874A3A5E8BB /* Pods-LYFoundation_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYFoundation_Tests.debug.xcconfig"; path = "Target Support Files/Pods-LYFoundation_Tests/Pods-LYFoundation_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		D1EA0AA25C6BEFAE319126B2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D1EA0AA25C6BEFAE319126B2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +103,6 @@
 				BDF61A995A754874A3A5E8BB /* Pods-LYFoundation_Tests.debug.xcconfig */,
 				78760C2095A35E625B037EBF /* Pods-LYFoundation_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -259,6 +258,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
